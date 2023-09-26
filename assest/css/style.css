@@ -1,11 +1,13 @@
 :root {
     --first-color: #252525;
     --brite-color: #fff;
+    --button-color: rgb(18, 18, 146);
 }
 
 html {
     box-sizing: border-box;
     font-size: 100%;
+    
 }
 
 * {
@@ -13,6 +15,7 @@ html {
     font-size: inherit;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -36,6 +39,12 @@ html {
 
 }
 
+.logo-text {
+    color: var(--brite-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 .links ul {
     display: flex;
     gap: 2em;
@@ -45,7 +54,59 @@ html {
     display: block;
 }
 
+.logo-pic {
+    width: 2.5em;
+    height: 2.5em;
+}
 
+.logo-pic:hover {
+    border: 2px solid white;
+    box-shadow: 0 0 4px 3px white;
+    border-radius: 50%;
+}
+
+
+/* header section's codes */
+.header {
+    background-color: var(--first-color);
+    color: var(--brite-color);
+    display: flex;
+    justify-content: center;
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5em;
+    margin: 3em;
+}
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.content-section button {
+    display: block;
+    align-self: flex-start;
+    color: var(--brite-color);
+    background-color: var(--button-color);
+    width: 100px;
+    height: 2.5em;
+    border: none;
+    border-radius: 1em;
+    padding: 4px;
+}
+
+#hero-photo {
+    border-radius: 20%;
+    width: 250px;
+    height: 250px;
+}
 
 
 
