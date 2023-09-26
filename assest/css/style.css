@@ -80,7 +80,7 @@ html {
     justify-content: space-between;
     align-items: center;
     gap: 2.5em;
-    margin: 3em;
+    margin: 2em;
 }
 .content-section {
     display: flex;
@@ -88,6 +88,10 @@ html {
     align-items: center;
     justify-content: center;
     gap: 1em;
+}
+
+h1 {
+    font-size: 26px;
 }
 
 .content-section button {
@@ -106,6 +110,61 @@ html {
     border-radius: 20%;
     width: 250px;
     height: 250px;
+}
+/* header section's code */
+
+@media (max-width: 680px) {
+
+    /* header working find */
+    .nav-bar .container {
+        display: block;
+        text-align: center;
+    }
+
+    .logo-text {
+        margin: 1em;
+    }
+
+    .links {
+        margin: 1em ;
+    }
+
+    /* header workins fine */
+
+    .container .links ul li {
+        flex: 1 1 50%;
+
+    }
+
+    #hero-photo {
+        border-radius: 40%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .content-section {
+        order: 1;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .content-section button {
+        margin: 0 auto 2em;
+    }
+
+    #hero-photo{
+        border-radius: 50%;
+    }
+
+    
 }
 
 
