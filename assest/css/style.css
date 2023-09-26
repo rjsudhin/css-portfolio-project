@@ -1,0 +1,51 @@
+:root {
+    --first-color: #252525;
+    --brite-color: #fff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 1em 2em;
+}
+
+.nav-bar {
+    background-color: var(--first-color);
+    color: var(--brite-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links ul {
+    display: flex;
+    gap: 2em;
+}
+
+.links ul li{
+    display: block;
+}
+
+
+
+
+
