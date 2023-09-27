@@ -121,12 +121,18 @@ h1 {
 .first-section {
     background-color: rgb(209, 194, 194);
     display: flex;
-    padding: 5em;
     justify-content: center;
-    align-items: center;
+}
+
+.first-section .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 8em 2em;
 }
 
 .container .wraper {
+    width: 90%;
     padding: 2em;
     background-color: var(--wraper-background);
     border-radius: 1em;
@@ -181,6 +187,15 @@ h1 {
 
     .content-section h1 {
         color: rgb(247, 169, 26);
+    }
+
+    .first-section .wraper {
+        display: block;
+    }
+
+    .wraper button {
+        display: block;
+        margin: 5px auto 0;
     }
 }
 
