@@ -149,6 +149,7 @@ h1 {
 
     .content-section {
         order: 1;
+        text-align: center;
     }
 
     h1 {
