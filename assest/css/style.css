@@ -165,6 +165,17 @@ h1 {
 }
 /* first section's code */
 
+
+/* second section's code */
+.second-section {
+    background-color: var(--first-color);
+    height: 80vh;
+}
+
+
+
+/* second section's code */
+
 @media (max-width: 680px) {
 
     /* header working find */
@@ -238,5 +249,14 @@ h1 {
     
 }
 
+@media (max-width: 350px) {
+    .links ul {
+        display: block;
+    }
+
+    ul li {
+        margin: 1em 0;
+    }
+}
 
 
