@@ -189,6 +189,15 @@ h1 {
         color: rgb(247, 169, 26);
     }
 
+    #hero-photo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .content-section button {
+        margin: 2em auto;
+    }
+
     .first-section .wraper {
         display: block;
     }
