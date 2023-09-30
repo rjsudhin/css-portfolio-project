@@ -177,6 +177,41 @@ h1 {
 
 /* second section's code */
 
+/* third section's code */
+
+.third-section {
+    background-color: slategrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.third-section .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 2em 0;
+}
+
+.third-section-container .item {
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    border-radius: 2em;
+}
+
+/* third section's code */
+
 /* footer section */
 .footer {
     background-color: var(--wraper-background);
@@ -195,7 +230,6 @@ h1 {
     text-decoration-line: underline;
     text-decoration-color: aquamarine;
     text-decoration-thickness: 3px;
-    text-underline-position: below;
 }
 /* footer section */
 
